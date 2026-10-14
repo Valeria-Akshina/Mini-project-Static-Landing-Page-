@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoBox {
+    background: #ffffff;
+    color: #161616;
+    font-weight: 900;
+    font-size: 1.1rem;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.logoText {
+    font-size: 0.85rem;
+    color: #b3b3b3;
+    line-height: 1.2;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+}
+
+.navLink {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.navLink:hover {
+    color: #ffffff;
+}
+
+.contacts {
+    text-align: right;
+}
+
+.phone {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.callback {
+    display: block;
+    font-size: 0.75rem;
+    color: #888888;
+    cursor: pointer;
+}
+
+.callback:hover {
+    color: #d4e09b;
+}
+
+@media (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+}
